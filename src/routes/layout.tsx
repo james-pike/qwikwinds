@@ -17,11 +17,11 @@ export default component$(() => {
   return (
     <>
       <div
-        class="grid-background absolute inset-0 -z-10 grid grid-cols-6 gap-1"
+        class="grid-background absolute inset-0 p-1 -z-10 grid grid-cols-6 gap-1"
         dangerouslySetInnerHTML={gridItemsHTML}
       ></div>
       <Header />
-      <main>
+      <main class="mx-3 bg-white">
         <Slot />
       </main>
       <Footer />
