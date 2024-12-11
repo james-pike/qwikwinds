@@ -78,16 +78,7 @@ export default component$(() => {
                 value={store.primaryBgColor}
               />
             </div>
-            <div class="flex flex-col items-center ml-4">
-              <label class="text-sm">Text Color</label>
-              <input
-                class="cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker"
-                type="color"
-                data-id="color"
-                name="Text Color"
-                value={store.primaryColor}
-              />
-            </div>
+      
             <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             <ToggleMenu />
           </div>
