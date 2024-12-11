@@ -7,9 +7,8 @@ const gridItemsHTML = new Array(30)
   .fill(null)
   .map(
     () =>
-      `<div class=" animate-pulse" style="animation-delay: ${
-        Math.random() * 5
-      }s; animation-duration: ${3 + Math.random() * 3}s"></div>`
+      `<div class="hero animate-pulse" style="animation-delay: ${Math.random() * 5}s; 
+    animation-duration: ${3 + Math.random() * 3}s"></div>`
   )
   .join("");
 
