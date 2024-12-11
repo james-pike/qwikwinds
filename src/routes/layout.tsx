@@ -7,7 +7,7 @@ const gridItemsHTML = new Array(30)
   .fill(null)
   .map(
     () =>
-      `<div class="bg-blue-500 rounded animate-pulse" style="animation-delay: ${
+      `<div class="hero rounded animate-pulse" style="animation-delay: ${
         Math.random() * 5
       }s; animation-duration: ${3 + Math.random() * 3}s"></div>`
   )
