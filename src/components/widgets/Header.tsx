@@ -50,8 +50,8 @@ export default component$(() => {
       id="header"
       class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
         store.isScrolling
-          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white/50 dark:bg-slate-900/50"
-          : ""
+          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+          : "bg-white dark:bg-slate-900"
       }`}
       window:onScroll$={() => {
         if (!store.isScrolling && window.scrollY >= 10) {
@@ -62,12 +62,12 @@ export default component$(() => {
       }}
     >
       <div class="absolute inset-0"></div>
-      <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
+      <div class="relative text-default py-2 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href="/">
-            <Logo class=" bg-white/50 rounded" />
+            <Logo class="" />
           </a>
-          <div class="flex items-center md:hidden bg-white/50 rounded">
+          <div class="flex items-center md:hidden ">
             <div class="flex flex-col items-center">
               <label class="text-sm">Background</label>
               <input

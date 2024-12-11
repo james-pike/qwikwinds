@@ -21,7 +21,7 @@ export default component$(() => {
         dangerouslySetInnerHTML={gridItemsHTML}
       ></div>
       <Header />
-      <main class="mx-3 bg-white/80 rounded">
+      <main class="mx-3 mt-2 bg-white/80 dark:bg-slate-900/80 rounded">
         <Slot />
       </main>
       <Footer />
