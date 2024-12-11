@@ -19,7 +19,7 @@ export default component$(() => {
       id="header"
       class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
         store.isScrolling
-          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white/50 dark:bg-slate-900/50"
           : ""
       }`}
       window:onScroll$={() => {
@@ -34,9 +34,9 @@ export default component$(() => {
       <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-            <Logo />
+            <Logo class=" bg-white/50 rounded"/>
           </a>
-          <div class="flex items-center md:hidden">
+          <div class="flex items-center md:hidden bg-white/50 rounded">
             <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             <ToggleMenu />
           </div>
