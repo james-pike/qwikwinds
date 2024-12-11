@@ -4,7 +4,7 @@
 
 - [Services](#)
 - [Porfolio](#)
-- [About us](#)
+- [Pricing](/pricing)
 - [Terms](/terms)
 - [Privacy](/privacy)
 
