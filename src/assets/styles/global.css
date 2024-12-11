@@ -30,7 +30,6 @@ body {
 .hero {
 	background: var(--primary-bg-color);
 	color: var(--primary-color);
-	transition: all 0.16s ease-in-out;
 }
 
 
