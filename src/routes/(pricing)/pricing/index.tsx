@@ -14,12 +14,10 @@ export default component$(() => {
     <>
      
       <Features
-        highlight="Features"
-        title="What you get with Qwind"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
-        items={[
-        
-        ]}
+        highlight="Pricing"
+        title="Flexible Payment Options"
+        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque."
+       
       />
        <Tabs.Root class="max-w-[400px]">
       <Tabs.List class="grid w-full grid-cols-2">

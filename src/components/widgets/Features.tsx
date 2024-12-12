@@ -5,25 +5,20 @@ import { ItemGrid } from "~/components/ui/ItemGrid";
 
 import IconStar from "~/components/icons/IconStar";
 
-interface Item {
-  title?: string;
-  description?: string;
-  icon?: any;
-  classes?: Record<string, string>;
-}
+
 
 interface Props {
   id?: string;
   title?: any;
   subtitle?: any;
   highlight?: any;
-  items: Array<Item>;
+ 
   isDark?: boolean;
   classes?: any;
 }
 
 export default component$((props: Props) => {
-  const { id, title = "", subtitle = "", highlight = "", items = [], classes = {}, isDark = false } = props;
+  const { id, title = "", subtitle = "", highlight = "", classes = {}, isDark = false } = props;
 
   return (
     <section class="relative scroll-mt-16" {...(id ? { id } : {})}>
@@ -41,7 +36,7 @@ export default component$((props: Props) => {
       >
         <Headline title={title} subtitle={subtitle} highlight={highlight} classes={classes?.headline} />
         <ItemGrid
-          items={items}
+         
           defaultIcon={IconStar}
           classes={{
             container: "md:grid-cols-2",
