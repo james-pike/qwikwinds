@@ -1,9 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Tabs } from "~/components/Tabs";
 import { Card } from "~/components/Card";
-import { Label } from "~/components/Label";
-import { Input } from "~/components/Input";
-import { Button } from "~/components/Button";
+
 import Pricing from "~/components/widgets/Pricing";
 
 
