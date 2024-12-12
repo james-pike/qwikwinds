@@ -18,7 +18,7 @@ export default component$(() => {
         title="Flexible Payment Options"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque."
       />
-       <Tabs.Root class="max-w-[400px] bg-white/50">
+       <Tabs.Root class="max-w-[400px] bg-gray-100">
       <Tabs.List class="grid w-full grid-cols-2">
         <Tabs.Tab>Full Site ~$5000</Tabs.Tab>
         <Tabs.Tab>Monthly ~$250</Tabs.Tab>
