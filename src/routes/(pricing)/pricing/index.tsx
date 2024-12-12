@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import Features from "~/components/widgets/Features";
 import Stats from "~/components/widgets/Stats";
 import CallToAction from "~/components/widgets/CallToAction";
 import { Tabs } from "~/components/Tabs";
@@ -7,17 +6,17 @@ import { Card } from "~/components/Card";
 import { Label } from "~/components/Label";
 import { Input } from "~/components/Input";
 import { Button } from "~/components/Button";
+import Pricing from "~/components/widgets/Pricing";
 
 
 export default component$(() => {
   return (
     <>
      
-      <Features
+      <Pricing
         highlight="Pricing"
         title="Flexible Payment Options"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque."
-       
       />
        <Tabs.Root class="max-w-[400px]">
       <Tabs.List class="grid w-full grid-cols-2">
