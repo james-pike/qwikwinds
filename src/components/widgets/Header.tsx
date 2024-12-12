@@ -9,7 +9,7 @@ export default component$(() => {
   const { menu } = useContent();
   const store = useStore({
     isScrolling: false,
-    primaryBgColor: "#400080", // Default background color
+    primaryBgColor: "#272fbb", // Default background color
     primaryColor: "#ffffff", // Default text color
   });
 
@@ -72,7 +72,7 @@ export default component$(() => {
           </a>
           <div class="flex items-center md:hidden ">
             <div class="flex flex-col items-center">
-              <label class="text-sm">Background</label>
+
               <input
                 class="cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker"
                 type="color"
