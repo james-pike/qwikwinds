@@ -12,7 +12,7 @@ export default component$(() => {
         title="Get in touch for a consultation"
         subtitle="Leave some information in the form below, we're passionate about your project!"
       />
-       <form action="#" class="grid max-w-screen-md grid-cols-1 mx-auto gap-x-8 gap-y-6 pt-0 sm:grid-cols-2">
+       <form action="#" class="grid max-w-screen-md grid-cols-1 px-2 mx-auto gap-x-8 gap-y-6 pt-0 sm:grid-cols-2">
         <div>
           <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
             Name
