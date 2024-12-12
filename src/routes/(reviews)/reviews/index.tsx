@@ -13,7 +13,7 @@ export default component$(() => {
         subtitle="Leave some information in the form below, we're passionate about your project!"
       />
 
-      <div class="w-full h-2 opacity-100"></div>
+      <div class="w-full h-2 hero"></div>
       <Pricing
         highlight="Client Reviews"
         title="Feedback From Our Clients"
