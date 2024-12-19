@@ -8,18 +8,11 @@ export default component$(() => {
     <>
      
       <Pricing
-        highlight="Client Reviews"
-        title="Feedback From Our Clients"
+        highlight="Roadmap"
+        title="The roadmap of Froppy the Kaspian Frog"
         subtitle="Leave some information in the form below, we're passionate about your project!"
       />
-
-      <div class="w-full h-2 hero"></div>
-      <Pricing
-        highlight="Client Reviews"
-        title="Feedback From Our Clients"
-        subtitle="Leave some information in the form below, we're passionate about your project!"
-      />
-      
+       <div class="h-60"></div>
     </>
   );
 });
