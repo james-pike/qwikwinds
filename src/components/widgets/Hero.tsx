@@ -10,8 +10,8 @@ export default component$(() => {
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
-              Meet Froppy <br class="hidden lg:block" />{" "}
-              <span class="text-[#039de1]">The Memecoin on Kaspa</span>
+              $Froppy <br class="hidden lg:block" />{" "}
+              <span class="text-[#039de1]">The Kaspian Frog</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
@@ -29,9 +29,9 @@ export default component$(() => {
                     Get Froppy
                   </a>
                 </div>
-                {/* <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button>
-                </div> */}
+                <div class="flex w-full sm:w-auto">
+                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join the Community!</button>
+                </div>
               </div>
             </div>
           </div>
