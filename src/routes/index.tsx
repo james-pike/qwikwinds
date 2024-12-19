@@ -22,7 +22,7 @@ export default component$(() => {
   return (
     <>
       <Hero />
-      <Features
+      {/* <Features
         highlight="Features"
         title="What you get with Qwind"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
@@ -103,7 +103,7 @@ export default component$(() => {
         ]}
       />
       <Stats />
-      <CallToAction />
+      <CallToAction /> */}
     </>
   );
 });
