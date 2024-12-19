@@ -6,39 +6,38 @@ import IconInstagram from "~/components/icons/IconInstagram";
 import IconFacebook from "~/components/icons/IconFacebook";
 import IconGithub from "~/components/icons/IconGithub";
 
-
 export default component$(() => {
   const links = [
     {
-      title: "Services",
+      title: "Froppy Ecosystem",
       items: [
-        { title: "Web Design", href: "#" },
-        { title: "Development", href: "#" },
-        { title: "Hosting Solutions", href: "#" },
+        { title: "Froppy Coin", href: "#" },
+        { title: "Roadmap", href: "#" },
+        { title: "Community", href: "#" },
       ],
     },
     {
       title: "Resources",
       items: [
-        { title: "Case Studies", href: "#" },
-        { title: "Client Testimonials", href: "#" },
-        { title: "Blog", href: "#" },
+        { title: "Whitepaper", href: "#" },
+        { title: "Docs", href: "#" },
+        { title: "How to Buy", href: "#" },
       ],
     },
-    // {
-    //   title: "Support",
-    //   items: [
-    //     { title: "Contact Us", href: "#" },
-    //     { title: "FAQs", href: "#" },
-    //   ],
-    // },
-    // {
-    //   title: "Company",
-    //   items: [
-    //     { title: "About Us", href: "#" },
-    //     { title: "Privacy Policy", href: "#" },
-    //   ],
-    // },
+    {
+      title: "Support",
+      items: [
+        { title: "Contact Us", href: "#" },
+        { title: "FAQs", href: "#" },
+      ],
+    },
+    {
+      title: "About Froppy",
+      items: [
+        { title: "Our Story", href: "#" },
+        { title: "Privacy Policy", href: "#" },
+      ],
+    },
   ];
 
   const social = [
@@ -49,17 +48,17 @@ export default component$(() => {
   ];
 
   return (
-    <footer class="py-3 bg-gradient-to-r from-bgAccent via-secondary to-bgLight px-3">
-      <div class="max-w-7xl mx-auto px-4 bg-bgAccent dark:bg-gray-900 rounded-lg shadow-lg">
+    <footer class="py-2 bg-gradient-to-r from-sky-300 via-sky-500 to-sky-200 px-2">
+      <div class="max-w-7xl mx-auto px-4 bg-sky-50 dark:bg-gray-900 rounded-lg shadow-lg">
         <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 pb-2 md:py-12">
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-4">
               <Link class="inline-block font-bold text-2xl" href={"/"}>
-                Webdev.ca
+                Froppy
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
-              Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.
+              Join the Froppy revolution! Froppy is the memecoin you never knew you needed. Hop into the future with fast transactions, low fees, and a vibrant community.
             </div>
           </div>
           {links.map(({ title, items }, index) => (
@@ -98,11 +97,9 @@ export default component$(() => {
             ))}
           </ul>
           <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
-            {/* Replace favicon span with your Logo component */}
-         
-            Made with {" "}<span class="text-primary mx-1">♥</span> by&nbsp;
+            Made with <span class="text-primary mx-1">♥</span> by&nbsp;
             <a class="text-gray-900 underline dark:text-gray-200" href="#">
-              Webdev.ca
+              Froppy
             </a>{" "}
             <span class="hidden md:inline"> · All rights reserved.</span>
           </div>

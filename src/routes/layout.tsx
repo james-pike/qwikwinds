@@ -1,4 +1,5 @@
 import { component$, Slot } from "@builder.io/qwik";
+import Footer from "~/components/widgets/Footer";
 
 
 import Header from "~/components/widgets/Header";
@@ -20,10 +21,10 @@ export default component$(() => {
         dangerouslySetInnerHTML={gridItemsHTML}
       ></div>
       <Header />
-      <main class="mx-3 mt-2 bg-white/90 dark:bg-slate-900/90 rounded">
+      <main class="mx-3 mt-2 bg-white/95 dark:bg-slate-900/95 rounded">
         <Slot />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 });
