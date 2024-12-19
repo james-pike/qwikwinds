@@ -101,7 +101,7 @@ export default component$(() => {
             {/* <a class="text-gray-900 underline dark:text-gray-200" href="#">
               Froppy
             </a>{" "} */}
-            <span class=""> Donate: kaspa:qztyvgjtdhf8z6f5rt00zj3c9datsqscxnqsjy9dwudp8vqyfuscsytaaxat9</span>
+            <span class=""> Donate: kaspa:qztyz...</span>
           </div>
         </div>
       </div>
