@@ -12,7 +12,7 @@ export default component$(() => {
         title="The story of Froppy the Kaspian Frog"
         subtitle="Leave some information in the form below, we're passionate about your project!"
       />
-       <div class="h-10"></div>
+       <div class="h-50"></div>
     </>
   );
 });
