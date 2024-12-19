@@ -22,9 +22,9 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="bg-sky-200 dark:bg-sky-400 btn sm:mb-0 w-full"
-                    href="https://github.com/onwidget/kroppy"
-                    target="_blank"
-                    rel="noopener"
+                    href="/"
+                    
+                    
                   >
                     Get Froppy
                   </a>
