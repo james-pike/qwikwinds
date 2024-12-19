@@ -97,11 +97,11 @@ export default component$(() => {
             ))}
           </ul>
           <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
-            Made with <span class="text-sky-500 mx-1">♥</span> by&nbsp;
-            <a class="text-gray-900 underline dark:text-gray-200" href="#">
+            {/* Made with <span class="text-sky-500 mx-1">♥</span> by&nbsp; */}
+            {/* <a class="text-gray-900 underline dark:text-gray-200" href="#">
               Froppy
-            </a>{" "}
-            <span class=""> · Donate: kaspa:rql...</span>
+            </a>{" "} */}
+            <span class=""> Donate: kaspa: ...</span>
           </div>
         </div>
       </div>
