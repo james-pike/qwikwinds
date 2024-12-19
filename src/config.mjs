@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwind",
+  name: "Froppy",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Froppy — Lorem Ipsum Froppy + JS to build your new website.",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "Froppy is a production ready software to make your website using Javascript.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://froppy.xyz",
   basePathname: "/",
   trailingSlash: true,
 };
