@@ -49,7 +49,7 @@ export default component$(() => {
           </div>
           <div class="basis-1/2">
             <Image
-              src={coverImage}
+              src="/images/FROPPY.jpg"
               layout="constrained"
               width={493}
               height={616}
