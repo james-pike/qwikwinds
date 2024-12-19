@@ -30,7 +30,7 @@ export default component$(() => {
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join the Community!</button>
+                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join the Community</button>
                 </div>
               </div>
             </div>
