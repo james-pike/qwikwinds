@@ -21,7 +21,7 @@ export default component$(() => {
               <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
                 <div class="flex w-full sm:w-auto">
                   <a
-                    class="btn btn-primary sm:mb-0 w-full"
+                    class="bg-[#039de1] btn sm:mb-0 w-full"
                     href="https://github.com/onwidget/kroppy"
                     target="_blank"
                     rel="noopener"
@@ -30,12 +30,12 @@ export default component$(() => {
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join the Community</button>
+                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join Community</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="basis-1/2">
+          <div class="basis-1/2 -mt-10">
             <Image
               src="/images/FROPPY2.png"
               layout="constrained"

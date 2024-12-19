@@ -1,6 +1,6 @@
 # Menu
 
-- [Story](#)
+- [Story](/contact)
 - [Roadmap](#)
 - [Tokenomics](#)
 - [Whitepaper](#)
