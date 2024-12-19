@@ -49,7 +49,7 @@ export default component$(() => {
 
   return (
     <footer class="py-2 bg-gradient-to-r from-sky-300 via-sky-500 to-sky-200 px-2">
-      <div class="max-w-7xl mx-auto px-4 bg-sky-50 dark:bg-gray-900 rounded-lg shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 bg-sky-50 dark:bg-gray-900 shadow-lg">
         <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 pb-2 md:py-12">
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-4">
@@ -97,11 +97,11 @@ export default component$(() => {
             ))}
           </ul>
           <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
-            Made with <span class="text-primary mx-1">♥</span> by&nbsp;
+            Made with <span class="text-sky-500 mx-1">♥</span> by&nbsp;
             <a class="text-gray-900 underline dark:text-gray-200" href="#">
               Froppy
             </a>{" "}
-            <span class="hidden md:inline"> · All rights reserved.</span>
+            <span class=""> · Donate: kaspa:rql...</span>
           </div>
         </div>
       </div>

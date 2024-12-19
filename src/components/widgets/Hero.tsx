@@ -11,7 +11,7 @@ export default component$(() => {
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               $Froppy <br class="hidden lg:block" />{" "}
-              <span class="text-[#039de1]">The Kaspian Frog</span>
+              <span class="text-sky-500">The Kaspian Frog</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
@@ -21,7 +21,7 @@ export default component$(() => {
               <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
                 <div class="flex w-full sm:w-auto">
                   <a
-                    class="bg-sky-200 btn sm:mb-0 w-full"
+                    class="bg-sky-200 dark:bg-sky-400 btn sm:mb-0 w-full"
                     href="https://github.com/onwidget/kroppy"
                     target="_blank"
                     rel="noopener"
@@ -30,7 +30,7 @@ export default component$(() => {
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-red-200 ">Join Community</button>
+                  <button class="btn w-full bg-red-200 dark:bg-red-400 ">Join Community</button>
                 </div>
               </div>
             </div>

@@ -130,7 +130,7 @@ export default component$(() => {
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
                 href="/"
-                class="btn bg-[#039de1] ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
+                class="btn bg-sky-200 dark:bg-sky-500 ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Get $Froppy
               </a>
