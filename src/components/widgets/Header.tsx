@@ -71,7 +71,7 @@ export default component$(() => {
             <Logo class="" />
           </a>
           <div class="flex items-center md:hidden ">
-            <div class="flex flex-col items-center">
+            {/* <div class="flex flex-col items-center">
 
               <input
                 class="cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker"
@@ -80,7 +80,7 @@ export default component$(() => {
                 name="Background"
                 value={store.primaryBgColor}
               />
-            </div>
+            </div> */}
       
             <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             <ToggleMenu />
@@ -129,8 +129,8 @@ export default component$(() => {
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
-                href="https://github.com/onwidget/qwind"
-                class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
+                href="/"
+                class="btn bg-[#039de1] ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Get $Froppy
               </a>
