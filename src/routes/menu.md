@@ -3,7 +3,7 @@
 - [Story](/contact)
 - [Roadmap](/reviews)
 - [Tokenomics](#)
-- [Whitepaper](#)
+- [Memes](/memes)
 - [Contact](#)
 
 

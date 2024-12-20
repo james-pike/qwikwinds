@@ -35,6 +35,10 @@ export default component$(() => {
               </div>
             </div>
           </div>
+          
+ 
+
+
           <div class="basis-1/2 -mt-10">
             <Image
               src="/images/FROPPY2.png"
@@ -49,6 +53,8 @@ export default component$(() => {
           </div>
         </div>
       </div>
+
+      
     </section>
   );
 });
