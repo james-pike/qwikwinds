@@ -14,7 +14,7 @@ export default component$(() => {
         // subtitle="Leave some information in the form below, we're passionate about your project!"
       />
        <MemeCarousel/>
-      <div class="h-2"> </div>
+    
     </>
   );
 });
