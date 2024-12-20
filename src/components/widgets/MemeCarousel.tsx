@@ -13,7 +13,7 @@ export default component$(() => {
   return (
     <>
       <Carousel.Root
-        class="carousel-root px-3"
+        class="carousel-root px-2"
         gap={30}
         autoPlayIntervalMs={3500}
         bind:autoplay={isPlaying}
