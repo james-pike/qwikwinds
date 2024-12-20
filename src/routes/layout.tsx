@@ -24,7 +24,7 @@ export default component$(() => {
       <main class="mx-3 mt-2 bg-white/95 dark:bg-slate-900/95 rounded">
         <Slot />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 });
