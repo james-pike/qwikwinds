@@ -13,7 +13,7 @@ export default component$(() => {
   return (
     <>
       <Carousel.Root
-        class="carousel-root px-2"
+        class="carousel-root px-2 pt-2"
         gap={30}
         autoPlayIntervalMs={3500}
         bind:autoplay={isPlaying}
@@ -23,7 +23,7 @@ export default component$(() => {
           <Carousel.Player>{isPlaying.value ? <LuPause /> : <LuPlay />}</Carousel.Player>
           <Carousel.Next>Next</Carousel.Next>
         </div> */}
-        <Carousel.Scroller class="carousel-scroller">
+     
           {images.map((image, index) => (
             <Carousel.Slide key={image} class="carousel-slide">
               {/* Replace color with img for the images */}
@@ -31,12 +31,12 @@ export default component$(() => {
               {/* <div>{index === 1 && <button>I stop autoplay on focus!</button>}</div> */}
             </Carousel.Slide>
           ))}
-        </Carousel.Scroller>
+      
       </Carousel.Root>
-      <p>isPlaying: {isPlaying.value.toString()}</p>
+      {/* <p>isPlaying: {isPlaying.value.toString()}</p>
       <button onClick$={() => (isPlaying.value = !isPlaying.value)}>
         Toggle autoplay
-      </button>
+      </button> */}
     </>
   );
 });
